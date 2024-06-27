@@ -1,0 +1,10 @@
+--- a/sigstore-rs-d5ba303182318495a081d1c4ad50d5c27be015cc/src/bundle/mod.rs	2024-06-25 01:27:14.000832521 +0300
++++ b/sigstore-rs-d5ba303182318495a081d1c4ad50d5c27be015cc/src/bundle/mod.rs	2024-06-25 01:28:39.899745220 +0300
+@@ -20,6 +20,7 @@
+ 
+ // Known Sigstore bundle media types.
+ #[derive(Clone, Copy, Debug)]
++#[allow(dead_code)]
+ pub enum Version {
+     _Bundle0_1,
+     Bundle0_2,
